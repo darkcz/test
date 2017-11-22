@@ -18,7 +18,7 @@ struct ether_h
 void getpacket(u_char *arg, const struct pcap_pkthdr *pkthdr, const u_char *packet)  
 {  
 	int	*id = (int *)arg;  
-    int	i;
+    	int	i;
 	struct	ether_h	*ether_protocol;
 	u_short type;
 	u_char	*mac;
